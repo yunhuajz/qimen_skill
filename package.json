@@ -1,0 +1,31 @@
+{
+  "name": "qimen-skill",
+  "version": "1.0.0",
+  "description": "奇门遁甲排盘与分析工具 - 中国传统占卜术奇门遁甲排盘系统",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "奇门遁甲",
+    "qimen",
+    "dunjia",
+    "排盘",
+    "占卜",
+    "命理",
+    "chinese-metaphysics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
